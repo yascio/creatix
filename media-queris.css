@@ -1,0 +1,119 @@
+@media screen and (max-width: 539px){
+
+    /* mobile  */
+    *{
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+
+    /* navbar */
+   
+    label.font{
+        font-size: 30px;
+        padding-left: 50px;
+        }
+
+    .navLinks{
+        font-size: 16px;
+    }
+
+
+    .our-design{
+        flex-wrap: wrap;
+    }
+   
+
+   
+   
+}
+
+@media screen and (max-width: 747px){
+        .checkbtn{
+            display: block;
+        }
+        
+        .hero-banner{
+            z-index: 0;
+        }
+        nav{
+            z-index: 1;
+            
+            position: fixed;
+        }
+
+        label.logo{
+            padding: 0 20px;
+        }
+
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #2c3e50;
+            top: 60px;
+            left: -100%;
+            text-align: center;
+            transition: all 0.5s  ;
+
+        }
+       
+        .navLinks{
+            display: block;
+            font-size: 20px;
+        }
+        .navLinks:hover{
+            color: black;
+        }
+        #check:checked~ul{
+            left: 0;
+        }
+        :checked~ul{
+            left: 0;
+        }
+        
+
+        .our-services{
+            flex-wrap: wrap;
+        }
+        .client-flex{
+            flex-wrap: wrap;
+            /* justify-content: start; */
+        }
+        .reasons{
+            flex-wrap: wrap;
+        }
+        .our-design{
+            flex-wrap: wrap;
+        }
+
+        .client-img{
+            width: 30%;
+        }
+
+
+        /* hero banner  */
+        .hero-banner{
+            padding-top: 70px;
+            height: 80vh;
+            background-size: cover;
+
+        }
+        .heading, .para{
+            padding-left: 20px;
+        }
+
+    /* reasons  */
+    .reason-card{
+        padding-top: 30px;
+    }
+
+    .service-card{
+        padding-top: 40px;
+    }
+
+    /* design  */
+    .design-card{
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+}
